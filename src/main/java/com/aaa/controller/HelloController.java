@@ -46,4 +46,7 @@ public class HelloController {
     public void push(){
         System.out.println("git test push");
     }
-}
+    public void pull()
+    {
+         System.out.println("git test pull");
+    }
