@@ -43,4 +43,7 @@ public class HelloController {
     public void show(){
         System.out.println("master branch 测试合并冲突");
     }
+    public void push(){
+        System.out.println("git test push");
+    }
 }
