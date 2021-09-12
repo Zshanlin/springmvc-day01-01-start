@@ -37,6 +37,9 @@ public class HelloController {
         System.out.println(user.getUname());
         return "success";
     }
+    public void sayHello2(){
+        System.out.println("hot-fix 测试合并冲突");
+    }
     public void show(){
         System.out.println("master branch 测试合并冲突");
     }
