@@ -31,4 +31,10 @@ public class HelloController {
         System.out.println(user.getUname());
         return "success";
     }
+    @RequestMapping("/hot-fix")
+    public String hotFix(User user){
+        System.out.println(user.getAge());
+        System.out.println(user.getUname());
+        return "success";
+    }
 }
