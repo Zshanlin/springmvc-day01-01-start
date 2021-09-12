@@ -25,4 +25,10 @@ public class HelloController {
         System.out.println(user.getUname());
         return "success";
     }
+    @RequestMapping("/saveUser3")
+    public String saveUser3(User user){
+        System.out.println(user.getAge());
+        System.out.println(user.getUname());
+        return "success";
+    }
 }
