@@ -39,5 +39,6 @@ public class HelloController {
     }
     public void sayHello2(){
         System.out.println("hot-fix 测试合并冲突");
+        System.out.println("测试拉去命令");
     }
 }
